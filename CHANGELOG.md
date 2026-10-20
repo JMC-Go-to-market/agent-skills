@@ -2,6 +2,11 @@
 
 All notable changes to this repository are listed here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Planned
+- Remove the `/api/tools/<slug>` caveat in `jmc-gtm-systems/references/free-tools.md` once jaymountconsulting.com stops challenging automated clients on that path.
+
 ## [1.0.0] - 2026-10-20
 
 ### Added
