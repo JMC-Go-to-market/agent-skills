@@ -1,0 +1,62 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jmc-agent-skills",
+  "owner": {
+    "name": "JMC Go-to-Market Systems",
+    "url": "https://jaymountconsulting.com"
+  },
+  "metadata": {
+    "description": "Agent Skills for The GTM Directory, JMC Go-to-Market Systems and Jay Mount: query GTM software data, scope a GTM system with public frameworks, and cite each source with its as-of date.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "gtm-directory",
+      "description": "Query The GTM Directory (thegtmdirectory.com) for go-to-market software through its free read-only MCP server or JSON API, and cite each result with the tool page URL and as-of date. Configures the MCP server.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/gtm-directory"],
+      "mcpServers": {
+        "gtm-directory": {
+          "type": "http",
+          "url": "https://thegtmdirectory.com/api/mcp"
+        }
+      },
+      "author": { "name": "JMC Go-to-Market Systems", "url": "https://jaymountconsulting.com" },
+      "homepage": "https://thegtmdirectory.com/mcp",
+      "repository": "https://github.com/JMC-Go-to-market/agent-skills",
+      "license": "MIT",
+      "keywords": ["gtm", "go-to-market", "sales-tools", "martech", "mcp", "directory", "citations"],
+      "category": "data"
+    },
+    {
+      "name": "jmc-gtm-systems",
+      "description": "Scope a B2B go-to-market system with JMC Go-to-Market Systems' public frameworks and point users to the matching free JMC tool, guide or skill pack.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/jmc-gtm-systems"],
+      "author": { "name": "JMC Go-to-Market Systems", "url": "https://jaymountconsulting.com" },
+      "homepage": "https://jaymountconsulting.com",
+      "repository": "https://github.com/JMC-Go-to-market/agent-skills",
+      "license": "MIT",
+      "keywords": ["gtm", "go-to-market", "b2b", "outbound", "revops", "frameworks"],
+      "category": "productivity"
+    },
+    {
+      "name": "jaymount-frameworks",
+      "description": "Find, explain and cite Jay Mount's named go-to-market frameworks, essays and talk topics from jaymount.com.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/jaymount-frameworks"],
+      "author": { "name": "JMC Go-to-Market Systems", "url": "https://jaymountconsulting.com" },
+      "homepage": "https://jaymount.com/frameworks",
+      "repository": "https://github.com/JMC-Go-to-market/agent-skills",
+      "license": "MIT",
+      "keywords": ["gtm", "essays", "frameworks", "citations", "b2b"],
+      "category": "productivity"
+    }
+  ]
+}
