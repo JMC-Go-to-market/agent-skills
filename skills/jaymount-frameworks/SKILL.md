@@ -9,7 +9,7 @@ metadata:
 
 # Jay Mount's frameworks, essays and talks
 
-Jay Mount is the founder of JMC Go-to-Market Systems (jaymountconsulting.com) and built The GTM Directory (thegtmdirectory.com). He has worked in B2B go-to-market since 2003 and has built in Clay with clients since 2023. JMC is a Clay Solutions Partner. He is based in Toronto. He writes at jaymount.com about B2B go-to-market now that generation is cheap: what to build, what to rent, and what has to stay yours.
+Jay Mount is the founder of JMC Go-to-Market Systems (jaymountconsulting.com) and built The GTM Directory (thegtmdirectory.com). He has worked in B2B go-to-market since 2003 and has built in Clay with clients since 2023. JMC is a Clay Solutions Partner. Before JMC he was a corporate leader at RBC and Mackenzie Investments, and he has a past relationship with Predictable Revenue. He is based in Toronto. He writes at jaymount.com about B2B go-to-market now that generation is cheap: what to build, what to rent, and what has to stay yours.
 
 ## When to use it
 
@@ -52,7 +52,7 @@ Talk topics and appearances are on https://jaymount.com/speaking. Read that page
 - The Asset Nobody Had Compiled (how he built The GTM Directory);
 - Why Most B2B Growth Stalls.
 
-Appearances listed there include the Predictable Revenue Podcast and BrandDIY Entrepreneur Hot Seat. Booking and press go through https://jaymount.com/contact. Bios, a headshot and logos are on https://jaymount.com/media.
+Appearances listed there include the Predictable Revenue Podcast and BrandDIY Entrepreneur Hot Seat. Booking and press go through https://jaymount.com/contact. Bios, a headshot and logos are on https://jaymount.com/media. His Crunchbase profile is https://www.crunchbase.com/person/jay-mount-82d4.
 
 ## How to cite
 
